@@ -16,29 +16,19 @@ public class JenisAyam {
         return idJenisAyam;
     }
 
-    public void setIdJenisAyam(int idJenisAyam) {
-        if (idJenisAyam > 0) {
-            this.idJenisAyam = idJenisAyam;
-        }
-    }
-
     public String getNamaJenis() {
         return namaJenis;
-    }
-
-    public void setNamaJenis(String namaJenis) {
-        if (!namaJenis.isEmpty()) {
-            this.namaJenis = namaJenis;
-        }
     }
 
     public int getUmurPanen() {
         return umurPanen;
     }
 
+    public void setNamaJenis(String namaJenis) {
+        this.namaJenis = namaJenis;
+    }
+
     public void setUmurPanen(int umurPanen) {
-        if (umurPanen > 0) {
-            this.umurPanen = umurPanen;
-        }
+        this.umurPanen = umurPanen;
     }
 }

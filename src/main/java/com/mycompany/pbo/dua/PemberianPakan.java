@@ -24,29 +24,23 @@ public class PemberianPakan {
         return jumlahPakan;
     }
 
-    public void setJumlahPakan(int jumlahPakan) {
-        if (jumlahPakan > 0) {
-            this.jumlahPakan = jumlahPakan;
-        }
-    }
-
     public String getTanggalPemberian() {
         return tanggalPemberian;
-    }
-
-    public void setTanggalPemberian(String tanggalPemberian) {
-        if (!tanggalPemberian.isEmpty()) {
-            this.tanggalPemberian = tanggalPemberian;
-        }
     }
 
     public String getWaktuPemberian() {
         return waktuPemberian;
     }
 
+    public void setJumlahPakan(int jumlahPakan) {
+        this.jumlahPakan = jumlahPakan;
+    }
+
+    public void setTanggalPemberian(String tanggalPemberian) {
+        this.tanggalPemberian = tanggalPemberian;
+    }
+
     public void setWaktuPemberian(String waktuPemberian) {
-        if (!waktuPemberian.isEmpty()) {
-            this.waktuPemberian = waktuPemberian;
-        }
+        this.waktuPemberian = waktuPemberian;
     }
 }

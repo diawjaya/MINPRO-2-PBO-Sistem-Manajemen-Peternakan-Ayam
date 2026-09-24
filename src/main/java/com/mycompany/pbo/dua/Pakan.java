@@ -23,19 +23,15 @@ public class Pakan extends JenisAyam {
         return namaPakan;
     }
 
-    public void setNamaPakan(String namaPakan) {
-        if (!namaPakan.isEmpty()) {
-            this.namaPakan = namaPakan;
-        }
-    }
-
     public int getStok() {
         return stok;
     }
 
+    public void setNamaPakan(String namaPakan) {
+        this.namaPakan = namaPakan;
+    }
+
     public void setStok(int stok) {
-        if (stok >= 0) {
-            this.stok = stok;
-        }
+        this.stok = stok;
     }
 }

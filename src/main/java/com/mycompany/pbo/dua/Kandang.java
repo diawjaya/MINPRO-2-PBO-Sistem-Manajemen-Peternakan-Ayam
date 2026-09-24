@@ -30,49 +30,39 @@ public class Kandang extends JenisAyam {
         return namaKandang;
     }
 
-    public void setNamaKandang(String namaKandang) {
-        if (!namaKandang.isEmpty()) {
-            this.namaKandang = namaKandang;
-        }
-    }
-
     public int getKapasitas() {
         return kapasitas;
-    }
-
-    public void setKapasitas(int kapasitas) {
-        if (kapasitas > 0) {
-            this.kapasitas = kapasitas;
-        }
     }
 
     public int getJumlahAyam() {
         return jumlahAyam;
     }
 
-    public void setJumlahAyam(int jumlahAyam) {
-        if (jumlahAyam >= 0 && jumlahAyam <= kapasitas) {
-            this.jumlahAyam = jumlahAyam;
-        }
-    }
-
     public String getJenisAyam() {
         return jenisAyam;
-    }
-
-    public void setJenisAyam(String jenisAyam) {
-        if (!jenisAyam.isEmpty()) {
-            this.jenisAyam = jenisAyam;
-        }
     }
 
     public int getPakanDibutuhkan() {
         return pakanDibutuhkan;
     }
 
+    public void setNamaKandang(String namaKandang) {
+        this.namaKandang = namaKandang;
+    }
+
+    public void setKapasitas(int kapasitas) {
+        this.kapasitas = kapasitas;
+    }
+
+    public void setJumlahAyam(int jumlahAyam) {
+        this.jumlahAyam = jumlahAyam;
+    }
+
+    public void setJenisAyam(String jenisAyam) {
+        this.jenisAyam = jenisAyam;
+    }
+
     public void setPakanDibutuhkan(int pakanDibutuhkan) {
-        if (pakanDibutuhkan >= 0) {
-            this.pakanDibutuhkan = pakanDibutuhkan;
-        }
+        this.pakanDibutuhkan = pakanDibutuhkan;
     }
 }
