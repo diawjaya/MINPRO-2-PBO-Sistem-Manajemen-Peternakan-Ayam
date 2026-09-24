@@ -31,10 +31,10 @@ public class Main {
         pakan.add(new Pakan(2, "Dedak", 300));
 
         pemberian.add(new PemberianPakan(
-                1, 20, "08-09-2026", "08:00"));
+                1, 20, "08 September 2026", "08:00"));
 
         pemberian.add(new PemberianPakan(
-                2, 25, "08-09-2026", "16:00"));
+                2, 25, "08 September 2026", "16:00"));
 
         int pilihan;
 
