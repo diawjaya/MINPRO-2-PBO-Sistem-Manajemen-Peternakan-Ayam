@@ -229,6 +229,7 @@ Jika memilih menu 2 maka peternak bisa melihat pakan apa saja yang dimiliki dan 
 Jika terjadi kesalahan menginput saat menambahkan pakan peternak bisa memilih menu 3 untuk mengubah data pakan yang sudah ada
 
 <img width="110" height="56" alt="image" src="https://github.com/user-attachments/assets/5c36a379-dab7-4d6c-98df-e81d6746ba43" />
+
 Jika peternak merasa sudah tidak ingin menggunakan suatu pakan maka bisa memilih menu 4 untuk menghapus pakan yang tidak diinginkan
 
 ### Data Pemberian Pakan
